@@ -6,8 +6,6 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
-# Remover posteriormente
-assistente/
-tests/
-pytest.ini
+
+# saída gerada pelo notebook
 recomendacoes.json

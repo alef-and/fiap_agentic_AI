@@ -1,0 +1,5 @@
+# Opcional: modo LLM (seção 5.1 do notebook). Não é necessário para o fluxo principal.
+# Requer OPENAI_API_KEY ou GOOGLE_API_KEY no ambiente (APIs pagas/com cota).
+langchain>=1.0
+langchain-openai>=1.0
+langchain-google-genai>=4.0
