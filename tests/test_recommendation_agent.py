@@ -1,10 +1,10 @@
 import pytest
 
-from assistente.agent import InvestmentAgent
-from assistente.chat import answer
-from assistente.data import get_price_data
-from assistente.recommendation import decide, generate_recommendation
-from assistente.tools import Tool, ToolResult
+from assistant.agent import InvestmentAgent
+from assistant.chat import answer
+from assistant.data import get_price_data
+from assistant.recommendation import decide, generate_recommendation
+from assistant.tools import Tool, ToolResult
 from conftest import make_prices
 
 BASE = {"date": "2026-10-16", "close": 10.0, "RSI": 25.0, "MACD": 0.2, "MACD_signal": 0.1,

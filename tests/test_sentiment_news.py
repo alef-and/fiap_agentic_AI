@@ -1,5 +1,5 @@
-from assistente.news import mentions, search_news
-from assistente.sentiment import classify
+from assistant.news import mentions, search_news
+from assistant.sentiment import classify
 
 RSS = b"""<?xml version="1.0"?><rss version="2.0"><channel><title>t</title>
 <item><title>Petrobras dispara com lucro recorde</title><description>PETR4 sobe</description>

@@ -43,7 +43,7 @@ Nunca grave chaves no código ou no notebook. Chamadas a APIs pagas podem gerar 
 ## Estrutura
 
 ```
-assistente/
+assistant/
   config.py          ações, feeds RSS, parâmetros e limiares
   tools.py           Tool / ToolResult e validação de ticker
   data.py            get_price_data(ticker, period)       -> yfinance (.SA), retry, cache

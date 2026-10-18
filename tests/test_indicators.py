@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from assistente.indicators import calculate_indicators, rsi, snapshot
+from assistant.indicators import calculate_indicators, rsi, snapshot
 from conftest import make_prices
 
 

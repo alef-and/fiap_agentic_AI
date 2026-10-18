@@ -7,7 +7,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from assistente import data, news  # noqa: E402
+from assistant import data, news  # noqa: E402
 
 
 def make_prices(n=300, seed=0, drift=0.0005):

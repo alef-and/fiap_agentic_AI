@@ -1,8 +1,8 @@
 import pandas as pd
 import pytest
 
-from assistente import config
-from assistente.evaluation import backtest, evaluate_ticker, trend_hit, walk_forward_decisions
+from assistant import config
+from assistant.evaluation import backtest, evaluate_ticker, trend_hit, walk_forward_decisions
 from conftest import make_prices
 
 
