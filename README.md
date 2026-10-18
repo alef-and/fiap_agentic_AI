@@ -24,11 +24,11 @@ Pré-requisito: Python 3.12 com a venv do projeto (`.venv/`).
 .venv\Scripts\python -m pytest
 ```
 
-Depois, abra `trab_final.ipynb` no VS Code ou no Jupyter, selecione o kernel da `.venv` e execute as células em ordem (*Restart & Run All*). Também é possível executar sem interface:
+Depois, abra `notebook.ipynb` no VS Code ou no Jupyter, selecione o kernel da `.venv` e execute as células em ordem (*Restart & Run All*). Também é possível executar sem interface:
 
 ```powershell
 $env:PYTHONUTF8 = "1"   # obrigatório no Windows: sem isso o arquivo é lido como cp1252 e os acentos se corrompem
-.venv\Scripts\jupyter execute --inplace trab_final.ipynb   # via nbclient (já em requirements.txt)
+.venv\Scripts\jupyter execute --inplace notebook.ipynb   # via nbclient (já em requirements.txt)
 ```
 
 O notebook salva os registros em `recomendacoes.json`. Esse arquivo é ignorado pelo git.
@@ -57,7 +57,7 @@ assistant/
   plots.py           gráficos (matplotlib)
   llm_agent.py       modo opcional LangChain (OpenAI/Gemini) com as mesmas ferramentas
 tests/               testes pytest com dados sintéticos e feeds simulados
-trab_final.ipynb     notebook de entrega (ponto de entrada)
+notebook.ipynb     notebook de entrega (ponto de entrada)
 ```
 
 ## Como o agente decide
